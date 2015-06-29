@@ -1,0 +1,35 @@
+{
+    "name": "exs/silex-mobility-detector-light-provider",
+    "description": "Detect mobile device",
+    "keywords": [
+        "silex",
+        "mobile",
+        "device",
+        "detector",
+        "provider"
+    ],
+    "homepage": "https://github.com/ExSituMarketing/EXS-silex-mobility-detector-light-provider.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JY Lee",
+            "email": "lee@ex-situ.com",
+            "homepage": "http://www.ex-situ.com/"
+        }
+    ],
+    "require": {
+        "silex/silex": "~2.0@dev",
+        "maxmind-db/reader": "~1.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "EXS\\MobilityDetectorLightProvider": ""
+        }
+    },
+    "target-dir": "EXS/MobilityDetectorLightProvider",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
